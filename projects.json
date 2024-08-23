@@ -1,0 +1,73 @@
+[
+    {
+      "title": "Riding Cities",
+      "description": "Le projet 2 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage HTML au travers du site Internet de Riding Cities.",
+      "image": "Photo/Riding Cities.webp",
+      "link": "https://github.com/Rbnra/P2_RidingCities",
+      "category": "HTML"
+    },
+    {
+      "title": "Booki",
+      "description": "Le projet 3 du parcours Intégrateur Web d'OpenClassrooms nous permet d'intégrer l'interface du site de Booki en utilisant du code HTML et CSS.",
+      "image": "Photo/Booki.webp",
+      "link": "https://github.com/Rbnra/P3_Booki",
+      "category": "HTML"
+    },
+    {
+      "title": "Ohmyfood",
+      "description": "Le projet 4 du parcours Intégrateur Web d'OpenClassrooms consite à intégrer l'interface du site d'Ohmyfood en commençant par la version mobile.",
+      "image": "Photo/OhMyFood.webp",
+      "link": "https://github.com/Rbnra/P4_OhMyFood",
+      "category": "HTML"
+    },
+    {
+      "title": "Print It",
+      "description": "Le projet 5 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage JavaScript au travers du site de Print It.",
+      "image": "Photo/Print It.webp",
+      "link": "https://github.com/Rbnra/P5_Print_It",
+      "category": "JavaScript"
+    },
+    {
+      "title": "Sophie Bluel",
+      "description": "Le projet 6 du parcours Intégrateur Web d'OpenClassrooms nous emmène sur la conception du site portfolio d'une architecte en utilisant JavaScript et en communiquant avec une API.",
+      "image": "Photo/Sophie Bluel.webp",
+      "link": "https://github.com/Rbnra/P6_Sophie_Bluel",
+      "category": "JavaScript"
+    },
+    {
+      "title": "Kasa",
+      "description": "Le projet 7 du parcours Intégrateur Web d'OpenClassrooms consiste à développer la nouvelle plateforme web de Kasa en utilisant React.",
+      "image": "Photo/Kasa.webp",
+      "link": "https://github.com/Rbnra/P7_Kasa",
+      "category": "React"
+    },
+    {
+      "title": "Nina Carducci",
+      "description": "Le projet 8 du parcours Intégrateur Web d'OpenClassrooms consiste à améliorer les performances et le référencement naturel du site d'un client.",
+      "image": "Photo/Nina Carducci.webp",
+      "link": "https://github.com/Rbnra/P8_Nina_Carducci",
+      "category": "SEO"
+    },
+    {
+      "title": "724events",
+      "description": "Le projet 9 du parcours Intégrateur Web consiste à débugger le site d'une agence d'événementiel appelée 724events.",
+      "image": "Photo/724events.webp",
+      "link": "https://github.com/Rbnra/P9_724events",
+      "category": "Autres"
+    },
+    {
+      "title": "Menu Maker",
+      "description": "Le projet 11 du parcours Intégrateur Web d'OpenClassrooms est différent des autres projets réalisés, il s'agit de planifier le développement du prochain site de notre client Qwenta.",
+      "image": "Photo/Menu Maker Qwenta.webp",
+      "link": "https://github.com/Rbnra/P11_MenuMaker",
+      "category": "Autres"
+    },
+    {
+      "title": "Mon Portfolio",
+      "description": "Le projet 12 et dernier projet du parcours Intégrateur Web d'OpenClassrooms consiste à créer et mettre en ligne son site portfolio.",
+      "image": "Photo/Portfolio.webp",
+      "link": "#",
+      "category": "Autres"
+    }
+  ]
+  
