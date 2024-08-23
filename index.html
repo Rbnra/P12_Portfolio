@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstraWave - Mon Portfolio</title>
+    <meta name="description" content="Portfolio de AstraWave, créateur de sites web modernes et performants.">
+    <meta property="og:title" content="AstraWave - Mon Portfolio">
+    <meta property="og:description" content="Portfolio de AstraWave, créateur de sites web modernes et performants.">
+    <meta property="og:image" content="URL_de_votre_image_de_prévisualisation">
+    <meta property="og:url" content="URL_de_votre_site_web">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="Photo/Logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div id="loadingScreen">
+        <div class="loader"></div>
+        <p>Chargement en cours...</p>
+    </div>
+
+    <canvas id="petalsCanvas"></canvas>
+
+    <header id="header">
+        <div class="container header1">
+            <div class="logo-container">
+                <img src="Photo/Logo.webp" alt="Logo AstraWave" class="logo">
+            </div>
+            
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="#about"><i class="fas fa-user"></i>À propos</a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i>Projets</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="home home--bg Trailersandnews">
+    </div>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Bienvenue</h2>
+            <p>Créez une présence en ligne qui vous ressemble</p>
+            <a href="#projects" class="btn-primary">Explorer mes projets</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container1 container3">
+            <h2>À propos de moi</h2>
+            <p>Passionnée par le code et le design, j'accompagne les entreprises et les entrepreneurs dans la réalisation
+                de sites web modernes et performants.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <div class="container">
+            <h2 class="project1">Mes Projets</h2>
+            <div class="filters">
+                <button class="btn-filter" data-filter="all">Tous</button>
+                <button class="btn-filter" data-filter="JavaScript">JavaScript</button>
+                <button class="btn-filter" data-filter="React">React</button>
+                <button class="btn-filter" data-filter="SEO">SEO</button>
+                <button class="btn-filter" data-filter="HTML">HTML</button>
+                <button class="btn-filter" data-filter="Autres">Autres</button>
+            </div>
+            <div id="portfolio-grid" class="portfolio-grid">
+                <!-- Projets JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container4">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contactez-nous</h2>
+                    <p><strong>Société AstraWave</strong></p>
+                    <p>123 Rue des Étoiles<br>75000 Paris</p>
+                    <p>Pour toute demande ou collaboration, utilisez le formulaire à droite ou contactez-nous à <a
+                            href="mailto:contact.astrawave@gmail.com" class="mail">contact.astrawave@gmail.com</a></p>
+                    <h3 class="suivi">Suivez-nous</h3>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="Photo/Facebook.webp" alt="Facebook" loading="lazy"></a>
+                        <a href="https://x.com/?lang=fr" target="_blank" rel="noopener noreferrer"><img src="Photo/X.webp" alt="Twitter" loading="lazy"></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="Photo/Instagram.webp" alt="Instagram" loading="lazy"></a>
+                    </div>
+                </div>
+                <form id="contactForm" action="#">
+                    <div>
+                        <label for="name">Nom:</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p class="astra">&copy; 2024 AstraWave</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <button id="scrollToTopBtn" title="Retourner en haut">▲</button>
+</body>
+
+</html>
