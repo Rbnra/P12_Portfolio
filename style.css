@@ -1,0 +1,482 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #34343c;
+    font-weight: normal;
+}
+
+#header {
+    padding: 0;
+}
+
+.container.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.home.home--bg.Trailersandnews {
+    border-bottom: 2px solid #df4f71;
+    margin-bottom: -55px;
+    padding-bottom: inherit;
+}
+
+#navMenu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: -130px;
+}
+
+.container {
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container,
+.container1,
+.container3,
+.container4 {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    margin-top: -40px;
+}
+
+.container3 {
+    background-image: linear-gradient(90deg, #ffb4d7 0%, #ff858b 100%);
+}
+
+.container4 {
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+    height: 400px;
+}
+
+.logo {
+    max-height: 130px;
+}
+
+#navMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+
+#navMenu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul li a:hover {
+    color: #FF69B4 !important;
+    border-bottom: 2px solid #FF69B4;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+#hero p {
+    font-size: 0.9em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+    opacity: 0.85;
+}
+
+.btn-primary:hover {
+    background-color: #FF69B4;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px 0 rgba(255, 105, 180, 0.7);
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #FFF;
+    border: 1px solid #D8B4A6;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+#contact {
+    padding: 50px 150px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.contact-info {
+    max-width: 400px;
+    color: whitesmoke;
+}
+
+.contact-info h2 {
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.contact-info h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 0;
+}
+
+.social-media {
+    align-items: center;
+    margin-left: 10px;
+}
+
+.social-media a img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.suivi {
+    padding-bottom: 5px;
+}
+
+#contactForm {
+    flex: 1;
+}
+
+#contactForm div {
+    margin-bottom: 15px;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#contactForm button {
+    background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+    opacity: 0.85;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #FF69B4;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px 0 rgba(255, 105, 180, 0.7);
+}
+
+.mail {
+    text-decoration: none;
+    color: pink;
+}
+
+.mail:hover {
+    background-color: #e268a5;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px 0 rgba(246, 149, 197, 0.7);
+}
+
+footer {
+    background-color: #28282d;
+    display: block;
+    padding: 20px 0 30px;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+}
+
+footer p.astra {
+    text-align: center;
+    padding-left: 0;
+    color: white;
+}
+
+.project1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    margin-top: -30px;
+    font-size: 27px;
+}
+
+.portfolio-item {
+    background-color: #FFF;
+    border: 1px solid #D8B4A6;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-filter {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    color: white;
+}
+
+.btn-filter:hover {
+    background-color: #FF69B4;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px 0 rgba(255, 105, 180, 0.7);
+}
+
+.portfolio-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+#loadingScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    font-family: 'Arial', sans-serif;
+    transition: opacity 0.5s ease-out;
+    opacity: 1;
+}
+
+.loader {
+    border: 16px solid whitesmoke;
+    border-top: 16px solid #ff55a5;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#loadingScreen p {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    background-color: #df4f71;
+    color: #fff; 
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #FF69B4;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    #contact {
+        padding: 10px 20px 50px 50px;
+        margin-left: -30px;
+    }
+
+    #contactForm input {
+        width: 80%;
+    }
+
+    #contactForm textarea {
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width: 767.98px) {
+
+    .container.header1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header1 {
+        justify-content: flex-start;
+    }
+
+    .container1 {
+        width: 90%;
+        margin-top: -50px;
+    }
+
+    .contact-content {
+        display: grid;
+    }
+
+    #contact {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    #contactForm input {
+        width: 70%;
+    }
+
+    #contactForm textarea {
+        width: 70%;
+    }
+
+    .container4 {
+        height: 730px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #navMenu ul li a i {
+        display: none;
+    }
+
+    .portfolio-item {
+        width: 250px;
+    }
+
+    .project1 {
+        margin-top: -50px;
+    }
+
+    .logo-container {
+        text-align: left;
+        margin-top: -20px;
+    }
+
+    #navMenu {
+        margin: 0;
+    }
+
+    #navMenu ul {
+        margin: -20px 0 20px;
+
+    }
+
+}
+
