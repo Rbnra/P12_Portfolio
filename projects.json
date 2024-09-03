@@ -56,6 +56,13 @@
       "category": "Autres"
     },
     {
+      "title": "ArgentBank",
+      "description": "Le projet 10 du parcours Intégrateur Web consiste à implémenter le front-end d'une application bancaire : Argent Bank en utilisant React.",
+      "image": "Photo/ArgentBank.webp",
+      "link": "https://github.com/Rbnra/P10_ArgentBank",
+      "category": "React"
+    },
+    {
       "title": "Menu Maker",
       "description": "Le projet 11 du parcours Intégrateur Web d'OpenClassrooms est différent des autres projets réalisés, il s'agit de planifier le développement du prochain site de notre client Qwenta.",
       "image": "Photo/Menu Maker Qwenta.webp",
