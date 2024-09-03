@@ -63,3 +63,76 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+class Petal {
+    constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * -canvas.height;
+        this.size = Math.random() * 15 + 10; // Taille du pétale
+        this.speed = Math.random() * 1 + 0.1; // Vitesse de chute
+        this.angle = Math.random() * 360; // Angle de rotation initial
+        this.spin = Math.random() * 2 - 1; // Vitesse de rotation
+        this.opacity = Math.random() * 0.5 + 0.5; // Opacité du pétale
+    }
+
+    draw() {
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle * Math.PI / 180);
+
+        // Dessin du pétale avec une forme plus ovale
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.quadraticCurveTo(-this.size / 2, -this.size / 2, 0, -this.size);
+        ctx.quadraticCurveTo(this.size / 2, -this.size / 2, 0, 0);
+        ctx.closePath();
+
+        ctx.fillStyle = `rgba(255, 182, 193, ${this.opacity})`; // Rose clair
+        ctx.fill();
+        ctx.restore();
+    }
+
+    update() {
+        this.y += this.speed;
+        this.angle += this.spin;
+
+        if (this.y > canvas.height + this.size) {
+            this.x = Math.random() * canvas.width;
+            this.y = -this.size;
+        }
+    }
+}
+
+let petalsArray = [];
+
+function init() {
+    petalsArray = [];
+    for (let i = 0; i < 25; i++) { // Ajuster le nombre de pétales
+        petalsArray.push(new Petal());
+    }
+}
+
+function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    petalsArray.forEach(petal => {
+        petal.update();
+        petal.draw();
+    });
+
+    requestAnimationFrame(animate);
+}
+
+init();
+animate();
+
+window.addEventListener('resize', () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    init();
+});
