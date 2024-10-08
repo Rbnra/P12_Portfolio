@@ -28,7 +28,6 @@ body {
     flex-grow: 1;
     display: flex;
     justify-content: center;
-    margin-left: -150px;
 }
 
 .container {
@@ -170,21 +169,6 @@ canvas {
 
 .contact-info {
     color: whitesmoke;
- 
-}
-
-.social-media {
-    align-items: center;
-    margin-left: 10px;
-}
-
-.social-media a img {
-    width: 30px;
-    padding-right: 10px;
-}
-
-.suivi {
-    padding-bottom: 5px;
 }
 
 .mail {
@@ -349,18 +333,8 @@ canvas {
 @media (max-width: 1024px) and (min-width: 768px) {
 
     #contact {
-        padding: 10px 20px 50px 50px;
-        margin-left: -30px;
+        padding: 0 150px 50px 150px;
     }
-
-    #contactForm input {
-        width: 80%;
-    }
-
-    #contactForm textarea {
-        width: 80%;
-    }
-
 }
 
 
@@ -381,25 +355,12 @@ canvas {
         margin-top: -50px;
     }
 
-    .contact-content {
-        display: grid;
-    }
-
     #contact {
         padding: 0;
         margin-bottom: 50px;
     }
 
-    #contactForm input {
-        width: 70%;
-    }
-
-    #contactForm textarea {
-        width: 70%;
-    }
-
     .container4 {
-        height: 730px;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -416,12 +377,8 @@ canvas {
         margin-top: -50px;
     }
 
-    #navMenu {
-        margin: 0;
-    }
-
     #navMenu ul {
-        margin: -20px 0 20px;
+        margin: 40px 0 20px;
 
     }
 
