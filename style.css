@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-
+    height: 100px;
 }
 
 .home.home--bg.Trailersandnews {
@@ -28,7 +28,7 @@ body {
     flex-grow: 1;
     display: flex;
     justify-content: center;
-    margin-left: -130px;
+    margin-left: -150px;
 }
 
 .container {
@@ -57,11 +57,7 @@ body {
 
 .container4 {
     box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
-    height: 400px;
-}
-
-.logo {
-    max-height: 130px;
+    height: 260px;
 }
 
 #navMenu ul {
@@ -71,7 +67,6 @@ body {
     display: flex;
     gap: 30px;
 }
-
 
 #navMenu ul li a {
     text-decoration: none;
@@ -163,7 +158,7 @@ canvas {
 }
 
 #contact {
-    padding: 50px 150px;
+    padding: 50px 500px;
 }
 
 .contact-content {
@@ -174,22 +169,8 @@ canvas {
 }
 
 .contact-info {
-    max-width: 400px;
     color: whitesmoke;
-}
-
-.contact-info h2 {
-    margin-bottom: 30px;
-    margin-top: 0;
-}
-
-.contact-info h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.contact-info p {
-    margin-bottom: 0;
+ 
 }
 
 .social-media {
@@ -206,53 +187,15 @@ canvas {
     padding-bottom: 5px;
 }
 
-#contactForm {
-    flex: 1;
-}
-
-#contactForm div {
-    margin-bottom: 15px;
-}
-
-#contactForm label {
-    display: block;
-    margin-bottom: 5px;
-    color: whitesmoke;
-}
-
-#contactForm input,
-#contactForm textarea {
-    width: 50%;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
-#contactForm button {
-    background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
-    opacity: 0.85;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#contactForm button:hover {
-    background-color: #FF69B4;
-    transform: scale(1.05);
-    box-shadow: 0 0 25px 0 rgba(255, 105, 180, 0.7);
-}
-
 .mail {
     text-decoration: none;
     color: pink;
 }
 
 .mail:hover {
-    background-color: #e268a5;
+    background-color: #d970a5;
     transform: scale(1.05);
-    box-shadow: 0 0 25px 0 rgba(246, 149, 197, 0.7);
+    box-shadow: 0 0 25px 0 rgba(206, 156, 181, 0.7);
 }
 
 footer {
@@ -378,7 +321,7 @@ footer p.astra {
     bottom: 20px;
     right: 25px;
     background-color: #df4f71;
-    color: #fff; 
+    color: #fff;
     border: none;
     border-radius: 50%;
     padding: 10px 15px;
@@ -473,11 +416,6 @@ canvas {
         margin-top: -50px;
     }
 
-    .logo-container {
-        text-align: left;
-        margin-top: -20px;
-    }
-
     #navMenu {
         margin: 0;
     }
@@ -488,4 +426,3 @@ canvas {
     }
 
 }
-
