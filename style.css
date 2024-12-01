@@ -156,6 +156,73 @@ canvas {
     margin-top: 10px;
 }
 
+#services h2 {
+    font-size: 27px;
+    margin-top: -40px;
+    padding-top: 30px;
+    margin-bottom: -0px;
+    color: #fff;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.service-card {
+    background-color: #fff;
+    border: 5px solid #df4f71;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.service-card h3 {
+    font-size: 20px;
+    color: #34343c;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.portfolio-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.fas {
+    transition: transform 0.3s ease;
+}
+
+.fas:hover {
+    transform: rotate(360deg);
+}
+
+.portfolio-item img {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.1);
+}
+
 #contact {
     padding: 50px 500px;
     margin-top: -60px;
@@ -203,7 +270,6 @@ footer p.astra {
 
 .portfolio-item {
     background-color: #FFF;
-    border: 1px solid #D8B4A6;
     border-radius: 8px;
     padding: 20px;
     width: 300px;
