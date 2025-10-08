@@ -64,7 +64,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 30px;
+    gap: 15px;
 }
 
 #navMenu ul li a {
@@ -444,6 +444,14 @@ canvas {
     #navMenu ul {
         margin: 40px 0 20px;
 
+    }
+
+}
+
+@media (max-width: 376px) {
+
+    #navMenu ul li a {
+        font-size: 16px;
     }
 
 }
